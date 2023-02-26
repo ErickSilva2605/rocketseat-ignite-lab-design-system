@@ -1,6 +1,9 @@
 name: Storybook Tests
 
-on: deployment_status
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   storybook-tests:
